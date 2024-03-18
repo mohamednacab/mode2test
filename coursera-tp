@@ -1,0 +1,69 @@
+head>
+    <title>Food Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            color: #000000;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        main {
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        section {
+            background-color: #423737b3;
+            border: 1px solid #ddd;
+            width: calc(33.33% - 20px);
+            box-sizing: border-box;
+            padding: 20px;
+            margin-right: 20px;
+            float: left;
+            position: relative;
+        }
+
+        .section:last-child {
+            margin-right: 0;
+        }
+
+        .section-title {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #101010;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Menu</h1>
+    </header>
+    <main>
+        <section id="chicken">
+            <div class="section-title">Chicken</div>
+
+            <p>Le meilleur chicken fries que vous allez goûter.</p>
+        </section>
+        <section id="beef">
+            <div class="section-title">Beef</div>
+
+            <p>Le meilleur filet de bœuf que vous allez goûter.</p>
+        </section>
+        <section id="sushi">
+            <div class="section-title">Sushi</div>
+            <p>Le meilleur sushi que vous allez goûter.</p>
+        </section>
+    </main>
+</body>
+</html>
